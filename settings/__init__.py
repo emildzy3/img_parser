@@ -1,0 +1,7 @@
+from .settings import (
+    URL_TO_GET_RANDOM_HTML_WITH_IMG,
+    SIZE_CHUNKED,
+    COUNT_WORKER,
+    SAVE_IMG_PATH,
+    TIMEOUT_SESSION,
+)
