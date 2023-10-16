@@ -6,13 +6,17 @@
 ## Описание проекта
 Парсер случайно выбранных изображений с веб-сайта xkcd.com. Скрипт по умолчанию сохраняет 3 изображения в папку comics/.
 ## Запуск проекта
+- Скопировать проект:
+```
+git clone https://github.com/emildzy3/img_parser.git
+```
 - Установка зависимостей
 ```
 poetry install
 ```
 - Запуск
 ```
-poetry run main.py
+poetry run python main.py
 ```
 ## Технологии
 - asyncio

@@ -1,13 +1,19 @@
 [tool.poetry]
-name = "img-parse"
+name = "img-parser"
 version = "0.1.0"
-description = "\"Парсер картинок\""
+description = ""
 authors = ["emildzy <e.aglya@yandex.ru>"]
 readme = "README.md"
-packages = [{include = "img_parse"}]
+packages = [{include = "img_parser"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+asyncio = "^3.4.3"
+aiofiles = "^23.2.1"
+aiohttp = "^3.8.6"
+beautifulsoup4 = "^4.12.2"
+lxml = "^4.9.3"
+mypy = "^1.6.0"
 
 
 [build-system]
